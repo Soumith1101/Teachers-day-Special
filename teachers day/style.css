@@ -1,0 +1,49 @@
+body
+{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+img
+{
+    width: 100%;
+    object-fit: cover;
+}
+.divmain
+{
+display: flex;
+justify-content: space-around;
+border-bottom: solid;
+text-transform: capitalize;
+}
+a
+{
+background-color: darkcyan;
+  color: aliceblue;
+  padding:20px 30px;
+  display: inline-block;
+}
+a:hover
+{
+color: black;
+background-color: red;
+}
+.img
+{
+    width: 30%;
+    height: 30%;
+}
+
+.text
+{
+    width: 60%;
+    align-self: center;
+}
+.logo, .container
+{
+    width: 100%;
+}
+.button
+{
+    text-align: center;
+}
